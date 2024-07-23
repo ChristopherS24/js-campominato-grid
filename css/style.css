@@ -40,3 +40,16 @@ body {
     align-items: center ;
 }
 
+#gridContainer > .clean {
+    background-color: lightcoral;
+    border: 1px solid white;
+}
+
+.gridCell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
